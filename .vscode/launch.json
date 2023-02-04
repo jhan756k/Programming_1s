@@ -10,8 +10,8 @@
             "request": "launch",
             "mainClass": "${file}",
 
-            "args": "100 10"
-            
+            // "args": ""
+
         },
         {
             "type": "java",
