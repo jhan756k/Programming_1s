@@ -6,12 +6,16 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Feb06",
+            "request": "launch",
+            "mainClass": "Feb06",
+            "projectName": "Javaprog_e1737811"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
-            "mainClass": "${file}",
-
-            // "args": ""
-
+            "mainClass": "${file}"
         },
         {
             "type": "java",
