@@ -15,7 +15,8 @@
             "type": "java",
             "name": "Launch Current File",
             "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "${file}",
+            // "args": ""
         },
         {
             "type": "java",
