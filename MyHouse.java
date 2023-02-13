@@ -1,7 +1,9 @@
 class MyHouse
 {
 	public static void main(String[] args) 
-	{
+	{	
+		System.out.println(0x00005ab5);
+
 		int myHouse=0x0000FFFF; // 16개의 전등이 켜져 있는 초기 상태
 		System.out.print("우리 집 전등 상태 => "); printMyHouseStatus(myHouse);
 				
@@ -19,7 +21,7 @@ class MyHouse
 		myHouse=myHouse ^ 0x0000FF00;
 		System.out.print("우리 집 전등 상태 => "); printMyHouseStatus(myHouse);
 
-		myHouse=myHouse << 4;
+		myHouse=myHouse << 4; // 만약 한 층이 4개씩 구성되어있으면 1층 상태를 2층으로 올리거나 반대로 하거나
 		System.out.print("우리 집 전등 상태 => "); printMyHouseStatus(myHouse);
 	}
 
