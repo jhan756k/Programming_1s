@@ -47,7 +47,7 @@ public class Feb20 {
         근데 왜 switch-case를 쓰는가? --> 훨씬 더 빠르게 수행됨
         (if는 조건식 하나씩 검토하며 순차적으로, switch는 검토 없이 값으로 바로 점프)
         (if는 원래 조건이 만족되면 바로 종료되나, switch는 흘러내림 --> break로 보완 가능)
-
+        
         switch-case가 if 보다 미학적으로 깔끔하다.
         
         if, switch-case, 삼항연산자
