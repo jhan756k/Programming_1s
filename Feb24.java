@@ -3,7 +3,7 @@ public class Feb24 {
         // 유클리드 호제법 GCD
         int a = 480;
         int b = 859912;
-
+        
         System.out.println(a+" "+b); 
 
         while (a != 0 && b != 0) {
