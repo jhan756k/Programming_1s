@@ -27,6 +27,11 @@ public class Mar03 {
         --> Legacy code (go-to 문법 썼던 시절)
 
         c with classes --> C++
+
+        % --> 음수 실험해보기
+        부호는 분자 따라가면 됨
+        -5 % 3 = -2
+        5 % -3 = 2
         */
     }
 }
