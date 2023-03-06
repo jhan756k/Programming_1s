@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mjb",
+            "request": "launch",
+            "mainClass": "mjb",
+            "projectName": "Javaprog_e1737811"
+        },
+        {
+            "type": "java",
             "name": "Launch Feb06",
             "request": "launch",
             "mainClass": "Feb06",
@@ -15,9 +22,7 @@
             "type": "java",
             "name": "Launch Current File",
             "request": "launch",
-            "mainClass": "${file}",
-            // "args": ""
-            // "encoding": "euc-kr"
+            "mainClass": "${file}"
         },
         {
             "type": "java",
