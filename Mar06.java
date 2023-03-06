@@ -30,6 +30,7 @@ public class Mar06 {
 
         메소드 디자인 순서 --> Method-new PPT (상식적으로는 역순인게 존재함)
         지역변수는 이름 같아도 상관 X
+        그냥 함수 호출하면 리턴값 출력 X
         */
 
         printName(4);
