@@ -36,8 +36,6 @@ public class Mar06 {
         printName(4);
         printLessPrime(12);
         System.out.println(getSum(10));
-        System.out.println(getPrimeNumber(12));
-        System.out.println(getGCD(12, 15));
     }
 
     public static void printName(int n){
@@ -65,38 +63,4 @@ public class Mar06 {
 
         return sum;
     }
-
-    public static int getPrimeNumber(int n){
-        int cnt = 0;
-        for (int i=1; i<=n; i++){
-            if (n%i==0){
-                cnt++;
-            }
-        }
-
-        return cnt;
-    }
-
-    public static int getGCD(int a, int b){
-        int gcd = 0 ;
-
-        if (b > a) {
-            int temp = a;
-            a = b;
-            b = temp;
-        }
-
-        while (a!=0 && b!=0){
-            if (a > b) {
-                a %= b;
-            } else {
-                b %= a;
-            }
-        }
-        
-        gcd = a + b;
-        return gcd;
-    }
-
-
 }
