@@ -11,6 +11,7 @@ public class Mar08 {
         system.out.println(plus(1.0, 2.0)); 
         둘다 작동함
         전제: 파라미터가 충분히 구별될 수 있어야함 (데이터 타입, 개수, 순서 --> 통틀어서 시그니처)
+        순서 --> ex) int/double, double/int
         argument의 시그니처가 다르기만 하다면 메소드 오버로딩 가능
         자동 형변환 고려해야 함 (plus(25, 15.0) 은 실수, 실수 함수 호출)
 
