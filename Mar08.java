@@ -30,7 +30,8 @@ public class Mar08 {
         System.out.println(getLcm(12, 15));
         System.out.println(getRoot(2));
         System.out.println(plus('A', 3)); // --> 정수합으로 형변환
-        mjb.ps(0); // --> 클래스 이름으로 접근함
+        
+        Mar10.bin(5);; // --> 클래스 이름으로 접근함
     }
 
     public static int getPrimeNumber(int n){
