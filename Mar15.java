@@ -58,4 +58,8 @@ public class Mar15 {
 
     // 모든 진법 에서 ABCDEF.. 포함한 범용 변환함수 printNotation 구현해보기
     // MyRecursion.java 파일에 있음
+
+    /* 
+    Militime, Time module로 시간 체크
+    */
 }

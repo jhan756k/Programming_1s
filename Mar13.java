@@ -2,6 +2,7 @@ public class Mar13 {
     public static void main(String[] args) {
         /* 
         Iteration vs Recursion 
+        Recursion --> 수행속도 느림, 이해 힘듦 (스택때매 느림)
         */
 
         int n = 5;
