@@ -55,8 +55,10 @@ public class Mar22 {
         orig[2] = 1000;
         System.out.println(deepcopy[2]); // Deep Copy의 경우에는 각기 다른 배열이므로 원본 배열의 값이 바뀌어도 복사본 배열의 값은 바뀌지 않음
 
-        int shallowcopy[] = orig;
+        int shallowcopy[] = orig; //orig 배열의 레퍼런스 값을 저장함
         orig[2] = 3000;
         System.out.println(shallowcopy[2]); // Shallow Copy의 경우에는 원본 배열과 복사본 배열이 같은 배열을 가리키므로 원본 배열의 값이 바뀌면 복사본 배열의 값도 바뀜
+        // Shallow copy의 용도: 배열을 메소드의 인자로 넘길 때 사용함
+        // Deep copy로 배열 인자 넘기면 메모리 낭비가 심함 (인자에는 선언만 가능하므로)
     } 
 }
