@@ -41,7 +41,7 @@ public class Mar29 {
         System.out.println();
         
         // 문제 2
-        sortList(arr);
+        sellectionSort(arr);
 
         for (int i = 0; i < arr.length; i++) System.out.print(arr[i] + " ");
         System.out.println();
@@ -50,8 +50,8 @@ public class Mar29 {
         int t1 [] = new int [] {1, 2, 3, 4, 5, 6};
         int t2 [] = new int [] {3, 2, 4, 8, 6, 1};
 
-        sortList(t1);
-        sortList(t2);
+        sellectionSort(t1);
+        sellectionSort(t2);
 
         for (int x=0; x<6; x++){
             if (t1[x] != t2[x]){
@@ -66,7 +66,7 @@ public class Mar29 {
         for (int i=0; i<test.length; i++) System.out.print(test[i] + " ");
     }
 
-    public static int [] sortList(int [] arr) { // Selection Sort
+    public static void sellectionSort(int [] arr) { 
         for (int x=0; x<arr.length; x++) {
             for (int y=x+1; y<arr.length; y++) {
                 if (arr[x] > arr[y]) {
@@ -77,10 +77,9 @@ public class Mar29 {
             }
         }
         // 아니면 minval, minindex 변수 잡아서 마지막에 한번만 대입해도 됨
-        return arr;
     }
 
-    public static int [] bubbleSort(int [] arr) {
+    public static void bubbleSort(int [] arr) {
         for (int i=0; i<arr.length-1; i++){
             for (int s=0; s<arr.length-1; s++){
                 if (arr[s] > arr[s+1]){
@@ -90,7 +89,5 @@ public class Mar29 {
                 }
             }
         }
-
-        return arr;
     }
 } 
