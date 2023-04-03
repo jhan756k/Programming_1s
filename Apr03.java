@@ -20,6 +20,8 @@ public class Apr03 {
         c[2] = new int [4];
         (만약 전부 4로 길이가 같으면 int [][] arr = new int [3][4]; 가능 3행4열)
         다 다르면 개별적으로 정의해야함
+
+        2차원 배열에서 각 1차원 배열들은 순서 상관 없이 JVM 메모리 아무데나 생성됨
         */
 
         int [][] arr = new int [2][3];
@@ -29,7 +31,24 @@ public class Apr03 {
         arr[1][0] = 4;
         arr[1][1] = 5;
         arr[1][2] = 6;
-        
+
+        printArray(arr);
+
+        int [][] arr2 = new int[3][];
+        arr2[0] = new int[1];
+        arr2[1] = new int[2];
+        arr2[2] = new int[3];
+        arr2[0][0] = 1;
+        arr2[1][0] = 2;
+        arr2[1][1] = 3;
+        arr2[2][0] = 4;
+        arr2[2][1] = 5;
+        arr2[2][2] = 6;
+
+        printArray(arr2);
+    }
+
+    public static void printArray(int [][] arr) {
         for (int x=0; x<arr.length; x++) {
             for (int y=0; y<arr[x].length; y++) {
                 System.out.print(arr[x][y] + " ");
