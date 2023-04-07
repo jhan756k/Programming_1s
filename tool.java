@@ -1,8 +1,5 @@
-public class tools {
-    public static void main(String[] args) {
-        
-    }
-
+public class tool {
+    
     public static void print(int a){System.out.println(a);}
     public static void print(int a, String b){System.out.println(a + b);}
     public static void print(String a){System.out.println(a);}

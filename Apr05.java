@@ -3,7 +3,7 @@ public class Apr05 {
         /*
         2차원 배열 Deep Copy, Shallow Copy
         */
-
+        
         int [][] arr = new int [3][6];
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
@@ -17,7 +17,6 @@ public class Apr05 {
         int [][] copy2 = shallowCopy2(arr);
 
         arr[2][1] = 10;
-
         printArray(copy);
         printArray(copy2);
     }

@@ -1,4 +1,4 @@
-public class Arraytest8 {
+public class Apr05_bomb {
     public static void main(String[] args) {
         int n = 6;
         int bombnum = (n*n/3);
@@ -22,7 +22,7 @@ public class Arraytest8 {
             }
         }
 
-        tools.print(board);
+        tool.print(board);
     }
 
     public static int getNearBomb(int[][] board, int x, int y){
