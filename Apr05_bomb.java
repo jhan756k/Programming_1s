@@ -22,7 +22,11 @@ public class Apr05_bomb {
             }
         }
 
-        tool.print(board);
+        for (int i=0; i<board.length; i++){
+            for (int j=board[0].length; j++){
+
+            }
+        }
     }
 
     public static int getNearBomb(int[][] board, int x, int y){

@@ -5,7 +5,6 @@ public class Apr07 {
         /*
         2차원 배열 Sort
         역행렬구현
-
         마인배열
         */
 
