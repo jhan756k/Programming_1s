@@ -1,6 +1,6 @@
 public class Apr05_bomb {
     public static void main(String[] args) {
-        int n = 6;
+        int n = 7;
         int bombnum = (n*n/3);
         int[][] board = new int[n][n];
 
@@ -23,9 +23,11 @@ public class Apr05_bomb {
         }
 
         for (int i=0; i<board.length; i++){
-            for (int j=board[0].length; j++){
-
+            for (int j=0; j<board[0].length; j++){
+                if (board[i][j] == 9) System.out.print("* ");
+                else System.out.print(board[i][j] + " ");
             }
+            System.out.println();
         }
     }
 
