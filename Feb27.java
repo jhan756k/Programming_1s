@@ -4,15 +4,15 @@ public class Feb27 {
         //소수 판별
         int divs = 0, n = 104;
 
-        for (int i=2; i<n; i++) {
+        for (int i=1; i<n; i++) {
             if (n % i == 0) {
+                System.out.print(i + " "); 
                 divs++; 
-                break;
             }
         }
 
         if (divs == 0) System.out.println(n + " is prime");
-        else System.out.println(n + " is not prime");
+        else System.out.println(n + " has " + divs + " divisors");
 
         /*
         for 문에서 입력값의 조건식 if 포함할때 만약 부합하지 않으면

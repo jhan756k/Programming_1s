@@ -51,7 +51,6 @@ public class Feb20 {
         switch-case가 if 보다 미학적으로 깔끔하다.
         
         if, switch-case, 삼항연산자
-
         
         Math.random()은 0.0 이상 1.0 미만 임의의 double 형 숫자 생성 (0.0 <= x < 1.0)
         */

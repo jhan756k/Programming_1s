@@ -5,7 +5,7 @@ public class Mar27 {
         왜냐하면 메소드는 다른 메모리 범주를 사용하기 때문
         */
         int [] num = new int []{1, 2, 3, 4, 5};
-        printArr(num); // --> int [] arr = num; 이렇게 복사되어서 들어감 (메도스의 장벽 뚫음)
+        printArr(num); // --> int [] arr = num; 이렇게 복사되어서 들어감 (메소드의 장벽 뚫음)
 
         System.out.println();
 
