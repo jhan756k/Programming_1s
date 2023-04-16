@@ -1,3 +1,4 @@
+import java.util.*;
 public class midterm {
     public static void main(String[] args) {
         /*
@@ -45,8 +46,11 @@ public class midterm {
         라이프니츠 수열 (Feb06)
         근사값 루트 (Mar08)
         재귀함수 (fibonacci, digit, 이항계수 - Mar10/15, MyRecursion.java)
-        Sorting (Insertion, Bubble, Java API - Mar29)
+        Sorting (Insertion, Selection, Bubble - Mar29)
         역행렬 구현 (가우스-조던)
+
+        import java.util.*;
+        Arrays.sort(arr); --> 오름차순 정렬
 
         조건문에서 내용 없이 ; 만 치면 while문 구현 가능
 
@@ -91,11 +95,67 @@ public class midterm {
         왜냐하면 메소드는 다른 메모리 범주를 사용하기 때문
 
         int [] arr [] 가능
-        int [] arr[], x; - 정의할 때 arr은 2차원, x는 1차원
+        int [] arr[], x; - 정의할 때 arr은 2차원, x는 int
 
         int [][] arr = new int [3][]; 
         --> 이렇게 정의하면 arr[0], arr[1], arr[2]는 null
-
         */
+
+        int [] arr = {5, 3, 2, 4, 1};
+        Arrays.sort(arr);
+    }
+
+    public static void bin(int n){
+        if (n == 0) return;
+        else {
+            bin(n/2);
+            System.out.print(n%2);
+        }
+    }
+
+    public static int fibo(int n){
+        if (n<=1) return n;
+        else return fibo(n-1) + fibo(n-2);
+    }
+
+    public static int fact(int n){
+        if (n==1) return 1;
+        else return n*fact(n-1);
+    }
+
+    public static void selectionSort(int [] arr){
+        for (int i=1; i<arr.length; i++){
+            int temp = arr[i];
+            int j = i-1;
+            while (j>=0 && arr[j] > temp){
+                arr[j+1] = arr[j];
+                j--;
+            }
+            arr[j+1] = temp;
+        }
+    }
+
+    public static void bubbleSort(int [] arr){
+        for (int i=0; i<arr.length-1; i++){
+            for (int j=0; j<arr.length-1-i; j++){
+                if (arr[j] > arr[j+1]){
+                    int temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
+            }
+        }
+    }
+
+    public static void insertionSort(int [] arr){
+        for (int i=1; i<arr.length; i++){
+            int temp = arr[i];
+            int j = i-1;
+            while (j>=0 && arr[j] > temp){
+                arr[j+1] = arr[j];
+                j--;
+            }
+            arr[j+1] = temp;
+        }
     }
 }

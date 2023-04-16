@@ -15,6 +15,7 @@ public class Feb24 {
             
             System.out.println(a+" "+b); 
         }
+        System.out.println(a==0 ? b : a);
         System.out.println(a+b);
     }
 

@@ -58,19 +58,19 @@ class MyRecursion
 		//for(int num=1;num<=20;num++) 
 		{
 			System.out.println(num);
-			System.out.print("2Áø¹ý => ");
+			System.out.print("2ï¿½ï¿½ï¿½ï¿½ => ");
 			printNotation(num,2); 
 			System.out.print(": ");
 			printNotation2(num,2);
 			System.out.println();
 
-			System.out.print("8Áø¹ý => ");
+			System.out.print("8ï¿½ï¿½ï¿½ï¿½ => ");
 			printNotation(num,8);
 			System.out.print(": ");
 			printNotation2(num,8);
 			System.out.println();
 
-			System.out.print("16Áø¹ý => ");
+			System.out.print("16ï¿½ï¿½ï¿½ï¿½ => ");
 			printNotation(num,16);
 			System.out.print(": ");
 			printNotation2(num,16);
@@ -81,7 +81,7 @@ class MyRecursion
 		/*
 		endMilliTime = System.currentTimeMillis();
 		endNanoTime = System.nanoTime();	
-		System.out.printf("\n=> %5d ¹Ð¸®ÃÊ, \t %5d ³ª³ëÃÊ ¼Ò¸ðµÊ.\n", (endMilliTime - startMilliTime),(endNanoTime - startNanoTime));
+		System.out.printf("\n=> %5d ï¿½Ð¸ï¿½ï¿½ï¿½, \t %5d ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ò¸ï¿½ï¿½.\n", (endMilliTime - startMilliTime),(endNanoTime - startNanoTime));
 		System.out.printf("*********************************************************\n\n");
 		//*/
 	}
@@ -156,7 +156,7 @@ class MyRecursion
 		return res1/res2;
 	}
 
-	public static int biCoefRecur1(int n, int k) // ÀÏ¹ÝÀûÀÎ recursion
+	public static int biCoefRecur1(int n, int k) // ï¿½Ï¹ï¿½ï¿½ï¿½ï¿½ï¿½ recursion
 	{
 		if(k==0 || k==n) return 1;
 		else return biCoefRecur1(n-1, k-1) + biCoefRecur1(n-1, k);
@@ -218,12 +218,12 @@ class MyRecursion
 
 	public static void printNotation(int n, int radix)
 	{
-		if(radix!=2 && radix!=8 && radix!=16) { System.out.println("Wrong Radix, plz use 2 or 8 or 16" ); return; } // <= 2, 8, 16 ÀÌ¾î¾ß¸¸ ÇÏ´Â°¡?
+		if(radix!=2 && radix!=8 && radix!=16) { System.out.println("Wrong Radix, plz use 2 or 8 or 16" ); return; } // <= 2, 8, 16 ï¿½Ì¾ï¿½ß¸ï¿½ ï¿½Ï´Â°ï¿½?
 		if(n>=radix) {
 			printNotation(n/radix, radix);
 			if(radix!=16) System.out.print(n%radix+" ");
 			else System.out.print(n%radix==15?"F ":n%radix==14?"E ":n%radix==13?"D ":n%radix==12?"C ":n%radix==11?"B ":n%radix==10?"A ":(n%radix)+" ");
-			// else System.out.print(n%radix==15?"F ":n%radix==14?"E ":n%radix==13?"D ":n%radix==12?"C ":n%radix==11?"B ":n%radix==10?"A ":(n%radix)+" "); // <= ´õ ¸ÚÁø ¹®ÀåÀº?
+			// else System.out.print(n%radix==15?"F ":n%radix==14?"E ":n%radix==13?"D ":n%radix==12?"C ":n%radix==11?"B ":n%radix==10?"A ":(n%radix)+" "); // <= ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½?
 		}
 		else System.out.print(n==15?"F ":n==14?"E ":n==13?"D ":n==12?"C ":n==11?"B ":n==10?"A ":(n+" "));
 		//else System.out.print(n==15?"F ":n==14?"E ":n==13?"D ":n==12?"C ":n==11?"B ":n==10?"A ":(n+" "));
