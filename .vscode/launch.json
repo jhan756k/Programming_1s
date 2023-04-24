@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Apr0424",
+            "request": "launch",
+            "mainClass": "Apr0424",
+            "projectName": "Javaprog_e1737811"
+        },
+        {
+            "type": "java",
             "name": "mjb",
             "request": "launch",
             "mainClass": "mjb",
