@@ -19,6 +19,7 @@ public class Apr24 {
         클래스 사용자는 메소드 이름만 알면 됨 (변수 이름 알 필요 X)
 
         Encapsulation --> 캡슐화
+        Information Hiding - 정보 은닉 (보여줄거만 보여주고 숨길건 숨긴다 - 변수 숨기고 메소드 공개)
         */
     }
 }
