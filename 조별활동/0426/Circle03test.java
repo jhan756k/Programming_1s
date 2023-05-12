@@ -1,6 +1,7 @@
 class Circle03{
     private double pi = 3.14;
     private double radius;
+    public static int counter;
 
     public Circle03() {
         radius = 1.0;
