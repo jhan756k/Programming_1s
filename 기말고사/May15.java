@@ -10,6 +10,9 @@ public class May15 {
         c2.printRad();
         c3.printRad();
         c4.printRad();
+        /*
+        생성자 없앨 수 있는 조건 - 모든 멤버변수가 static일때
+        */
     }
 
     public static class Circle{

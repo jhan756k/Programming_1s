@@ -10,7 +10,7 @@ class Circle042
 	public Circle042() {
 		totalCounter++;
 		instCounter=totalCounter;
-		System.out.println(instCounter+"¹øÂ° ÀÎ½ºÅÏ½º »ý¼ºµÊ.");
+		System.out.println(instCounter+"ï¿½ï¿½Â° ï¿½Î½ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.");
 		radius=1.0;
 	}
 	//*/
@@ -20,7 +20,7 @@ class Circle042
 	{
 		totalCounter++;
 		instCounter=totalCounter;
-		System.out.println(instCounter+"¹øÂ° ÀÎ½ºÅÏ½º »ý¼ºµÊ.");
+		System.out.println(instCounter+"ï¿½ï¿½Â° ï¿½Î½ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.");
 		radius=1.0;
 	}
 
@@ -33,7 +33,7 @@ class Circle042
 	private Circle042()
 	{
 		instCounter=totalCounter;
-		System.out.println(instCounter+"¹øÂ° ÀÎ½ºÅÏ½º »ý¼ºµÊ.");
+		System.out.println(instCounter+"ï¿½ï¿½Â° ï¿½Î½ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.");
 		radius=1.0;
 	}
 
@@ -41,7 +41,7 @@ class Circle042
 		totalCounter++;
 		if(totalCounter<=3) return new Circle042();
 		else {
-			System.out.println("ÀÌ Å¬·¡½º´Â ÀÎ½ºÅÏ½º¸¦ ¼¼ °³¸¸ ¸¸µé ¼ö ÀÖ½À´Ï´Ù. ");
+			System.out.println("ï¿½ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î½ï¿½ï¿½Ï½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½. ");
 			return null;
 		}
 	}
@@ -50,7 +50,7 @@ class Circle042
 	public void setRadius(double r)
 	{
 		if(r<=0.0) {
-			System.out.println("¹ÝÁö¸§Àº ¾çÀÇ ½Ç¼ö °ªÀ¸·Î¸¸ ¼¼Æ®µÉ ¼ö ÀÖ½À´Ï´Ù. ±âº» ¹ÝÁö¸§ °ª 1.0À¸·Î ¼¼Æ®ÇÕ´Ï´Ù.");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ç¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Î¸ï¿½ ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½. ï¿½âº» ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ 1.0ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ®ï¿½Õ´Ï´ï¿½.");
 			radius=1.0;
 		}
 		else radius=r;
@@ -71,14 +71,14 @@ class Circle042
 		/*
 		if(p>=3.14 && p<=3.15) pi=p;
 		else { 
-			System.out.println("Á¦½ÃÇÑ ¿øÁÖÀ²ÀÌ ºÎÁ¤È®ÇÏ¿© ±×³É 3.14·Î ¼¼Æ®ÇÕ´Ï´Ù.");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È®ï¿½Ï¿ï¿½ ï¿½×³ï¿½ 3.14ï¿½ï¿½ ï¿½ï¿½Æ®ï¿½Õ´Ï´ï¿½.");
 			pi=3.14;
 		}
 		*/
 
 		if(p>=3.14 && p<=3.142) pi=p;
 		else {
-			System.out.println("¿øÁÖÀ²Àº 3.14º¸´Ù Á¤¹ÐÇÑ °ªÀÌ¾î¾ß ÇÕ´Ï´Ù. ±âº» ¿øÁÖÀ²ÀÎ °ª 3.14·Î ¼¼Æ®ÇÕ´Ï´Ù.");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 3.14ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì¾ï¿½ï¿½ ï¿½Õ´Ï´ï¿½. ï¿½âº» ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ 3.14ï¿½ï¿½ ï¿½ï¿½Æ®ï¿½Õ´Ï´ï¿½.");
 			pi=3.14;
 		}
 	}
@@ -154,7 +154,7 @@ class  Circle042Test
 		Circle042 x[]=new Circle042[10];
 		for(int i=0;i<x.length;i++) x[i]=new Circle042();
 		//for(int i=0;i<x.length;i++) x[i]=Circle042.getInstance();
-		for(int i=0;i<x.length;i++) System.out.println("ÇöÀç ¼¼Æ®µÈ ¹ÝÁö¸§Àº "+x[i].getRadius()+", ¿øÁÖÀ²Àº "+x[i].getPi()+" ÀÔ´Ï´Ù. ¿øÀÇ ³ÐÀÌ´Â "+x[i].area()+", µÑ·¹´Â "+x[i].circumference()+" ÀÔ´Ï´Ù.");
+		for(int i=0;i<x.length;i++) System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ "+x[i].getRadius()+", ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ "+x[i].getPi()+" ï¿½Ô´Ï´ï¿½. ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì´ï¿½ "+x[i].area()+", ï¿½Ñ·ï¿½ï¿½ï¿½ "+x[i].circumference()+" ï¿½Ô´Ï´ï¿½.");
 		//*/
 	}
 }
