@@ -1,0 +1,420 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Apr03",
+            "request": "launch",
+            "mainClass": "Apr03",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Apr0424",
+            "request": "launch",
+            "mainClass": "Apr0424",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Apr05",
+            "request": "launch",
+            "mainClass": "Apr05",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Apr05_bomb",
+            "request": "launch",
+            "mainClass": "Apr05_bomb",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Apr07",
+            "request": "launch",
+            "mainClass": "Apr07",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Apr10_mabangzin",
+            "request": "launch",
+            "mainClass": "Apr10_mabangzin",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Apr21",
+            "request": "launch",
+            "mainClass": "Apr21",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Apr24",
+            "request": "launch",
+            "mainClass": "Apr24",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "ArrayCopyTest",
+            "request": "launch",
+            "mainClass": "ArrayCopyTest",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "ArraySimEx",
+            "request": "launch",
+            "mainClass": "ArraySimEx",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Circle041Test",
+            "request": "launch",
+            "mainClass": "Circle041Test",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Circle042Test",
+            "request": "launch",
+            "mainClass": "Circle042Test",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "CircleMain",
+            "request": "launch",
+            "mainClass": "CircleMain",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "CirclePoorTest",
+            "request": "launch",
+            "mainClass": "CirclePoorTest",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "ComplexMain",
+            "request": "launch",
+            "mainClass": "ComplexMain",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "ComplexRun",
+            "request": "launch",
+            "mainClass": "ComplexRun",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Feb03",
+            "request": "launch",
+            "mainClass": "Feb03",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Feb06",
+            "request": "launch",
+            "mainClass": "Feb06",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Feb08",
+            "request": "launch",
+            "mainClass": "Feb08",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Feb13",
+            "request": "launch",
+            "mainClass": "Feb13",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Feb15",
+            "request": "launch",
+            "mainClass": "Feb15",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Feb17",
+            "request": "launch",
+            "mainClass": "Feb17",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Feb20",
+            "request": "launch",
+            "mainClass": "Feb20",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Feb22",
+            "request": "launch",
+            "mainClass": "Feb22",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Feb24",
+            "request": "launch",
+            "mainClass": "Feb24",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Feb27",
+            "request": "launch",
+            "mainClass": "Feb27",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "For_VS_While",
+            "request": "launch",
+            "mainClass": "For_VS_While",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "If_VS_Switch",
+            "request": "launch",
+            "mainClass": "If_VS_Switch",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Mar03",
+            "request": "launch",
+            "mainClass": "Mar03",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Mar06",
+            "request": "launch",
+            "mainClass": "Mar06",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Mar08",
+            "request": "launch",
+            "mainClass": "Mar08",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Mar10",
+            "request": "launch",
+            "mainClass": "Mar10",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Mar13",
+            "request": "launch",
+            "mainClass": "Mar13",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Mar15",
+            "request": "launch",
+            "mainClass": "Mar15",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Mar17",
+            "request": "launch",
+            "mainClass": "Mar17",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Mar20",
+            "request": "launch",
+            "mainClass": "Mar20",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Mar22",
+            "request": "launch",
+            "mainClass": "Mar22",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Mar24",
+            "request": "launch",
+            "mainClass": "Mar24",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Mar27",
+            "request": "launch",
+            "mainClass": "Mar27",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Mar29",
+            "request": "launch",
+            "mainClass": "Mar29",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "Mar31",
+            "request": "launch",
+            "mainClass": "Mar31",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "May01",
+            "request": "launch",
+            "mainClass": "May01",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "May12",
+            "request": "launch",
+            "mainClass": "May12",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "May15",
+            "request": "launch",
+            "mainClass": "May15",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "May17",
+            "request": "launch",
+            "mainClass": "May17",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "May19",
+            "request": "launch",
+            "mainClass": "May19",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "May24",
+            "request": "launch",
+            "mainClass": "May24",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "MethodEx1",
+            "request": "launch",
+            "mainClass": "MethodEx1",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "MethodEx2",
+            "request": "launch",
+            "mainClass": "MethodEx2",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "MethodPrac",
+            "request": "launch",
+            "mainClass": "MethodPrac",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "MyArrLib",
+            "request": "launch",
+            "mainClass": "MyArrLib",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "MyHouse",
+            "request": "launch",
+            "mainClass": "MyHouse",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "MyRecursion",
+            "request": "launch",
+            "mainClass": "MyRecursion",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "OperatorExam",
+            "request": "launch",
+            "mainClass": "OperatorExam",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "RockPaperScissors",
+            "request": "launch",
+            "mainClass": "RockPaperScissors",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "RockPaperScissors2",
+            "request": "launch",
+            "mainClass": "RockPaperScissors2",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "TwoDimArrEx",
+            "request": "launch",
+            "mainClass": "TwoDimArrEx",
+            "projectName": "JavaProg_8523bfd2"
+        },
+        {
+            "type": "java",
+            "name": "midterm",
+            "request": "launch",
+            "mainClass": "midterm",
+            "projectName": "JavaProg_8523bfd2"
+        }
+    ]
+}
