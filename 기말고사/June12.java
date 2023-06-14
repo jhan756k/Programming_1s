@@ -21,6 +21,12 @@ public class June12 {
         t = a;, t=b; -->  no error (Outboxing)
         b = t; --> no error (Inboxing)
         Inboxing, Outboxing
+
+        배열과 배열간의 형변환 - 안되지만 유일한 object class 타입의 배열은 가능 (신경 X)
+
+        클래스 클래스 형변환 - 될때가 있다 (자주 활용 - 특수 관계(상속))
+
+        형변환에는 유사성이 필요 (클래스 됨)
         */
     }
 }
